@@ -1,0 +1,34 @@
+//
+//  YSPrefixHeader.pch
+//  ProjectTemplateDemo
+//
+//  Created by YanShuang Jiang on 2020/8/28.
+//  Copyright © 2020 WuHanOnePointOne. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+#ifndef YSPrefixHeader_pch
+#define YSPrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+/**公共头文件*/
+#import "YSInterface.h"
+#import "YSConstString.h"
+
+/**基类*/
+
+/**常用分类*/
+
+/**常用工具类*/
+#import "YSTools.h"
+#import "YSAlertUtil.h"
+#import "YSNetworkTool.h"
+#import "YSAccountTool.h"
+
+/**常用第三方*/
+#import <MJExtension.h>
+
+#endif /* YSPrefixHeader_pch */
+
+#endif
